@@ -76,7 +76,7 @@ nav ul li a::after {
   bottom: 0;
   display: block;
   background-color: #9003e5;
-  transition: all 10ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 nav ul li a:hover::after {
   width: 100%;
@@ -285,6 +285,12 @@ nav ul li a:hover::after {
 .text_width_254px {
   max-width: 254px;
 }
+.section5_round_image{
+transition: all 200ms ease-in-out;
+}
+.section5_round_image:hover{
+transform: scale(0.9);
+}
 
 /* main-section-5-end*/
 
@@ -337,9 +343,32 @@ nav ul li a:hover::after {
   position: absolute;
   z-index: -2;
 }
+.section6box{
+  overflow: hidden;
+  border-radius: 30px;
+  height: 100%;
+ 
+}
+img[alt="section6_image"]{
+ transition: all 200ms ease-in-out;
+}
+img[alt="section6_image"]:hover{
+  transform: scale(1.2);
+}
 
 /* main-section-6-end*/
-
+img[alt="section7_image"]{
+ transition: all 200ms ease-in-out;
+}
+img[alt="section7_image"]:hover{
+  transform: scale(1.2);
+}
+img[alt="section8_image"]{
+ transition: all 200ms ease-in-out;
+}
+img[alt="section8_image"]:hover{
+  transform: scale(1.2);
+}
 
 
 /* main-section-7-end*/
@@ -525,6 +554,7 @@ nav ul li a:hover::after {
   position: absolute;
   top: -28%;
   left: 50%;
+  cursor: pointer;
   transform: translateX(-50%);
 }
 .section11_left1 {
@@ -550,7 +580,24 @@ nav ul li a:hover::after {
   z-index: -1;
 }
 
-
+img[alt="section11_image1"]{
+ transition: all 200ms ease-in-out;
+}
+img[alt="section11_image1"]:hover{
+  transform: scale(0.9);
+}
+img[alt="section11_image2"]{
+ transition: all 200ms ease-in-out;
+}
+img[alt="section11_image2"]:hover{
+  transform: scale(0.9);
+}
+img[alt="section11_image3"]{
+ transition: all 200ms ease-in-out;
+}
+img[alt="section11_image3"]:hover{
+  transform: scale(0.9);
+}
 /* main-section-11-end*/
 /* footer*/
 .footer {
@@ -578,11 +625,23 @@ nav ul li a:hover::after {
   color: #ffffff;
   display: inline-block;
 }
+.footer_atext::after{
+  content: "";
+  width: 0%;
+  height: 4px;
+  bottom: 0;
+  display: block;
+  background-color: #9003e5;
+  transition: all 100ms ease-in-out;
+}
+.footer_atext:hover::after{
+width: 100%;
+}
 .pt_10px {
-  padding-top: 10px;
+  margin-top: 10px;
 }
 .pb_xs_10px {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .fw_600 {
   font-weight: 600;
