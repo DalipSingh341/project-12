@@ -199,7 +199,19 @@ nav ul li a:hover::after {
   line-height: 27px;
   color: #ffffff;
 }
+.gradient_hover{
+  background-image: url(../images/shadow_image.png);
+  top: 0%;
+  height: 100%;
+  width: 100%;
+opacity: 0;
+transition: all 200ms ease-in-out;
 
+}
+.gradient_hover:hover{
+  position: absolute;
+  opacity: 1;
+}
 /* main-section-3-end*/
 
 
